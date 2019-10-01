@@ -12,7 +12,7 @@ def Pi():
 		else:
 			valor_teste = valor_pi + comparar
 
-		dif = valor_teste - valor_pi
+		dif = 4 * valor_teste -  4 * valor_pi
 
 		if dif < 0:
 			dif *= -1
@@ -24,7 +24,7 @@ def Pi():
 		cont += 1
 		divisor += 2
 
-	return(valor_pi)
+	return(4 * valor_pi)
 
 def main():
 	valor_pi = Pi()
