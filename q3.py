@@ -26,4 +26,8 @@ def Pi():
 
 	return(valor_pi)
 
-print(Pi())
+def main():
+	valor_pi = Pi()
+	print(valor_pi)
+
+main()
